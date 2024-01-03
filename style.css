@@ -3,20 +3,84 @@
 클래서 선택자 (.): 문서 내에서 여러번 반복/재사용
 */
 
+*{
+    margin:0;
+    padding: 0;
+}
 
 
 .logo{
-    width: 100;
-    height: 110;
+    width: 100px;
+    height: 110px;
     display:block;
 }
+
+.mx-10{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 .mx-auto{
     margin: 0 auto;
   
 }
 
-.my-50{
-    margin-top: 50;
-    margin-bottom: 50;
+.my-30{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+.my-100{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.event{
+
+    width: 800px;
+    height: 500px;
+}
+
+
+.text-center{
+    text-align: center
+}
+
+.nav{
+    height: 60px;
+    line-height: 60px;
+}
+
+.bg-nav{
+    background-color: #005891;
+}
+
+a:link, a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #fcff00;
+    text-decoration: none;
+}
+
+
+.moive-title{
+    font-size: 22px;
+
+
+}
+
+.movie-text{
+    font-size: 16px;
+    color: #555555;
+}
+
+.movie-poster{
+width: 600px;
+height: 300px;
+font-size:0
+}
+
 
