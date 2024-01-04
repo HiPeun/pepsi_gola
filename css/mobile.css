@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+@media screen and (max-width: 400px)  {
+    .main{
+        width: 100vw;
+        height: auto
+    }
+    .main img {
+        width: 100%;
+    }
+}
